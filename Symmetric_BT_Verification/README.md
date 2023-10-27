@@ -34,7 +34,8 @@
     2. are_mirror_image(BT_1, BT_2)
 
 ## IV. The query to check whether the sample binary tree is symmetric
-1. is_symmetric(bt(a0, bt(a1, bt(a2, bt(a3, empty, empty),
+    1. Example
+is_symmetric(bt(a0, bt(a1, bt(a2, bt(a3, empty, empty),
                            bt(a4, bt(a5, empty, empty),
                                   bt(a6, bt(a7, empty, empty), 
                                          bt(a8, empty, empty)))),
