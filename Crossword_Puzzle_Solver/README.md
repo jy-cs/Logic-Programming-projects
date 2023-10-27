@@ -5,7 +5,7 @@
 ## II. How to understand the selectedwords.txt
     "selectedwords.txt" contains the value of variable, Puzzle, in 
     the crossword(Puzzle) rule. It is a list of two elements. First
-    element is a list of rows of the puzzle. It implements the puzzle 
+    element is a list of rows of the puzzle. It implements the puzzle
     with filling grid of variable and empty grid of "#" symbol. The 
     second element is a list of function symbols, w_info. w_info provides
     information of one word in the puzzle. The first argument of w_info
