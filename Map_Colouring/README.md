@@ -1,6 +1,6 @@
 # Map Colouring
 ## I. How to provide different maps and different colour sets
-    Construction of a Map:
+### 1. Construction of a Map:
         A map is represented by Graph starting from line-38
         Assume we have an arbitrary map, M, of n regions on it, and
             each region is distinctly labeled as R_{i}, where 1 <= i <= n.
@@ -18,8 +18,7 @@
               e(R_{i_m}, R_{j_m})]]
         Note that each Node is a variable, the first letter of the region label should
             be capitalized
-   
-    Construction of a Colour Set:
+### 2. Construction of a Colour Set:
         A colour set is represented by colour_set(List) at line-36,
             where List is either
                           * an empty list, or
