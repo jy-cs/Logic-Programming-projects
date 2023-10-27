@@ -13,13 +13,13 @@
     argument is the starting grid and ending grid of the word.
 
 ## III. How to compile and run
-$ gcc generator.c -o generator.o
-$ gcc display.c -o display.o
-$ ./generator.o words1.txt binpattern1.txt
--> run step2.pl
-$ ./display.o selectedwords.txt
--> showing the result as a standard output
-$ ./generator.o words2.txt binpattern2.txt
--> run step2.pl
-$ ./display.o selectedwords.txt
--> showing the result as a standard output
+    $ gcc generator.c -o generator.o
+    $ gcc display.c -o display.o
+    $ ./generator.o words1.txt binpattern1.txt
+    -> run step2.pl
+    $ ./display.o selectedwords.txt
+    -> showing the result as a standard output
+    $ ./generator.o words2.txt binpattern2.txt
+    -> run step2.pl
+    $ ./display.o selectedwords.txt
+    -> showing the result as a standard output
