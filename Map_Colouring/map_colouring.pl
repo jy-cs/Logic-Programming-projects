@@ -1,12 +1,4 @@
 % *******************************
-% * COMP4400 - A2 [Source Code File]
-% *
-% * Student Information
-% *   Name: Jiajie Yang
-% *   UWinID: yang4q
-% *   Student #: 110115897
-% *******************************
-
 % Construction of a Map:
 %     A map is represented by Graph starting from line-38
 %     Assume we have an arbitrary map, M, of n regions on it, and
@@ -32,6 +24,7 @@
 %                       * an empty list, or
 %                       * a list of colour labels
 %     Note that each colour in the list is a constant
+% *******************************
 
 colour_set([r, g, b]).
 result(Graph) :-
